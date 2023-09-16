@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DeleteFaculty</servlet-name>
+  	<display-name>DeleteFaculty</display-name>
+  	<description></description>
+  	<servlet-class>delete.DeleteFaculty</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteStudent</servlet-name>
+  	<display-name>DeleteStudent</display-name>
+  	<description></description>
+  	<servlet-class>delete.DeleteStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddClass</servlet-name>
+  	<display-name>AddClass</display-name>
+  	<description></description>
+  	<servlet-class>servlets.AddClass</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddFaculty</servlet-name>
+  	<display-name>AddFaculty</display-name>
+  	<description></description>
+  	<servlet-class>servlets.AddFaculty</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddStudent</servlet-name>
+  	<display-name>AddStudent</display-name>
+  	<description></description>
+  	<servlet-class>servlets.AddStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddSubject</servlet-name>
+  	<display-name>AddSubject</display-name>
+  	<description></description>
+  	<servlet-class>servlets.AddSubject</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignInServlet</servlet-name>
+  	<display-name>SignInServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.SignInServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogInServlet</servlet-name>
+  	<display-name>LogInServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.LogInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteFaculty</servlet-name>
+  	<url-pattern>/DeleteFaculty</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteStudent</servlet-name>
+  	<url-pattern>/DeleteStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddClass</servlet-name>
+  	<url-pattern>/AddClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddFaculty</servlet-name>
+  	<url-pattern>/AddFaculty</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddStudent</servlet-name>
+  	<url-pattern>/AddStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddSubject</servlet-name>
+  	<url-pattern>/AddSubject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignInServlet</servlet-name>
+  	<url-pattern>/SignInServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogInServlet</servlet-name>
+  	<url-pattern>/LogInServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
